@@ -20,7 +20,6 @@
 		906427AE21966F4DA3BAE953FBFCA5B7 /* RJSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E94B084747CB553310CCA10885BD37 /* RJSBridge.m */; };
 		A24A625BCBFD1FD3E905DE59049E195C /* NSObject+RJsonString.h in Headers */ = {isa = PBXBuildFile; fileRef = AF232B0BD1A70423B8280660091B49C3 /* NSObject+RJsonString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7FB08A0B58F896DDE50E4181493EFEB /* Pods-RJSBridge_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9173D564B2A1D8DF3640AB77575FCB9 /* Pods-RJSBridge_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C98BD14576013057D6F3C3C63834061C /* JSBridge.js in Sources */ = {isa = PBXBuildFile; fileRef = 938F54DB7E75AD9E6CE972AE8101653D /* JSBridge.js */; };
 		CD1E506786FCD7D058555DDFE6E54997 /* RJSBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A67FE52A544E069CB908B7C23F6A30 /* RJSBridge-dummy.m */; };
 		D438711EBDE94DB21ACC4D2B86E31491 /* Pods-RJSBridge_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0105EE084B2A78B931137C93CEE9A771 /* Pods-RJSBridge_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -62,7 +61,6 @@
 		78E94B084747CB553310CCA10885BD37 /* RJSBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RJSBridge.m; path = RJSBridge/Classes/RJSBridge.m; sourceTree = "<group>"; };
 		819622C42E131CFAD8ED74000BFE1614 /* WKWebView+RJSBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+RJSBridge.m"; path = "RJSBridge/Classes/WKWebView+RJSBridge.m"; sourceTree = "<group>"; };
 		90B0390E938A58921365B25CE6E18FD1 /* Pods-RJSBridge_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RJSBridge_Tests-umbrella.h"; sourceTree = "<group>"; };
-		938F54DB7E75AD9E6CE972AE8101653D /* JSBridge.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = JSBridge.js; path = RJSBridge/Classes/JSBridge.js; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AC25B2248AC516EB32C6236EA75FAD83 /* Pods-RJSBridge_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RJSBridge_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AF232B0BD1A70423B8280660091B49C3 /* NSObject+RJsonString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RJsonString.h"; path = "RJSBridge/Classes/NSObject+RJsonString.h"; sourceTree = "<group>"; };
@@ -135,7 +133,6 @@
 				819622C42E131CFAD8ED74000BFE1614 /* WKWebView+RJSBridge.m */,
 				F404637EDC3FFB1BAE0A89940E699EA7 /* RJSBridge.h */,
 				78E94B084747CB553310CCA10885BD37 /* RJSBridge.m */,
-				938F54DB7E75AD9E6CE972AE8101653D /* JSBridge.js */,
 				AF232B0BD1A70423B8280660091B49C3 /* NSObject+RJsonString.h */,
 				B219C9F8A9001D0DC282403E11A3B9B3 /* NSObject+RJsonString.m */,
 				39DA7DA77E829844BE64C5C632A3DCC4 /* Pod */,
@@ -396,7 +393,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C98BD14576013057D6F3C3C63834061C /* JSBridge.js in Sources */,
 				026E508C1D1913880C4C9E960343F458 /* NSObject+RJsonString.m in Sources */,
 				CD1E506786FCD7D058555DDFE6E54997 /* RJSBridge-dummy.m in Sources */,
 				906427AE21966F4DA3BAE953FBFCA5B7 /* RJSBridge.m in Sources */,
