@@ -30,15 +30,19 @@
     CGRect rect = CGRectMake(20, 88, self.view.bounds.size.width-40, self.view.bounds.size.height-300);
 
     // 'JSBridgeListener' iOS,安卓,前端 三端保持一致
-    self.webView = [[WKWebView alloc] initWithFrame:rect
-      configuration:[[WKWebViewConfiguration alloc] init]
-       listenerName:@"JSBridgeListener"
-           services:@{
-               @"testService": [NativeMethods new],
-               @"ioService": [IOSInterface new]
-           }];
-        
-    //self.webView.navigationDelegate = self;
+    
+    // service方式
+//    self.webView = [[WKWebView alloc] initWithFrame:rect
+//      configuration:[[WKWebViewConfiguration alloc] init]
+//       listenerName:@"JSBridgeListener"
+//           services:@{
+//               @"testService": [NativeMethods new],
+//               @"ioService": [IOSInterface new]
+//           }];
+    
+    // 一个交互类的方式
+    self.webView = [[WKWebView alloc] initWithFrame:rect configuration:[WKWebViewConfiguration new] listenerName:@"JSBridgeListener" interface:[NativeMethods new]];
+    
    [self.view addSubview:self.webView];
     
     NSString* _urlStr = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"html"];

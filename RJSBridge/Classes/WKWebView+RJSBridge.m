@@ -3,7 +3,7 @@
 //  WKEasyJSWebView
 //
 //  Created by Jerod on 2019/8/13.
-//  Copyright © 2021 JIJIUDONG. All rights reserved.
+//  Copyright © 2019 JIJIUDONG. All rights reserved.
 //
 
 #import "WKWebView+RJSBridge.h"
@@ -12,10 +12,7 @@
 
 @implementation WKWebView (RJSBridge)
 
-/**
- 初始化WKWwebView,并将交互类的方法注入JS
- */
-- (instancetype)initWithFrame:(CGRect)frame configuration:(WKWebViewConfiguration*)configuration listenerName:(NSString*)listenerName services:(NSDictionary<NSString*, NSObject*>*)interfaces
+- (instancetype)initWithFrame:(CGRect)frame configuration:(WKWebViewConfiguration*)configuration listenerName:(NSString*)listenerName interface:(NSObject*)interface
 {
     if (!configuration) configuration = [[WKWebViewConfiguration alloc] init];
     if (!configuration.userContentController) configuration.userContentController = [[WKUserContentController alloc] init];
@@ -26,7 +23,29 @@
     
     // 添加js发送信息监听者
     RJSBridgeListener *listener = [[RJSBridgeListener alloc] init];
-    listener.interfaces = interfaces;
+    listener.interface = interface;
+    listener.name = listenerName;
+    [configuration.userContentController addScriptMessageHandler:listener name:listenerName];
+    
+    self = [self initWithFrame:frame configuration:configuration];
+    return self;
+}
+
+/**
+ 初始化WKWwebView,并将交互类的方法注入JS
+ */
+- (instancetype)initWithFrame:(CGRect)frame configuration:(WKWebViewConfiguration*)configuration listenerName:(NSString*)listenerName services:(NSDictionary<NSString*, NSObject*>*)services
+{
+    if (!configuration) configuration = [[WKWebViewConfiguration alloc] init];
+    if (!configuration.userContentController) configuration.userContentController = [[WKUserContentController alloc] init];
+    
+    // 注入桥接js
+    NSString * BridgeJS = [NSString stringWithFormat:BRIDGE_JS_FORMAT, listenerName];
+    [configuration.userContentController addUserScript:[[WKUserScript alloc] initWithSource:BridgeJS injectionTime:WKUserScriptInjectionTimeAtDocumentStart forMainFrameOnly:YES]];
+    
+    // 添加js发送信息监听者
+    RJSBridgeListener *listener = [[RJSBridgeListener alloc] init];
+    listener.services = services;
     listener.name = listenerName;
     [configuration.userContentController addScriptMessageHandler:listener name:listenerName];
     

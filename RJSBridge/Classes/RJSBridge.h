@@ -3,7 +3,7 @@
 //  WKEasyJSWebView
 //
 //  Created by Jerod on 2019/8/13.
-//  Copyright © 2020 JIJIUDONG. All rights reserved.
+//  Copyright © 2019 JIJIUDONG. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -17,7 +17,8 @@ extern NSString * const BRIDGE_JS_FORMAT;
 
 @interface RJSBridgeListener : NSObject<WKNavigationDelegate,WKScriptMessageHandler>
 @property (nonatomic, copy) NSString *name;
-@property (nonatomic, strong) NSDictionary<NSString*, NSObject*> *interfaces;
+@property (nonatomic, strong) NSDictionary<NSString*, NSObject*> *services;
+@property (nonatomic, strong) NSObject *interface; /* interface 与 services 取一便可 */
 @end
 
 
@@ -34,7 +35,7 @@ extern NSString * const BRIDGE_JS_FORMAT;
 
 // 回调JS
 - (void)callbackJS:(void (^)(id response, NSError* error))completionHandler;
-- (void)callbackJSWithParam:(NSString *)param completionHandler:(void (^)(id response, NSError* error))completionHandler;
+
 - (void)callbackJSWithParams:(NSArray *)params completionHandler:(void (^)(id response, NSError* error))completionHandler;
 
 @end

@@ -44,26 +44,26 @@
 
 /* Begin PBXFileReference section */
 		0105EE084B2A78B931137C93CEE9A771 /* Pods-RJSBridge_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RJSBridge_Tests-dummy.m"; sourceTree = "<group>"; };
-		090F53568F82A18AD67070F3C03195D2 /* Pods_RJSBridge_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RJSBridge_Tests.framework; path = "Pods-RJSBridge_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		090F53568F82A18AD67070F3C03195D2 /* Pods_RJSBridge_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJSBridge_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D2FCA1A0F0A8CFD2FB6FFEEBBE9C5B8 /* Pods-RJSBridge_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RJSBridge_Example-dummy.m"; sourceTree = "<group>"; };
 		1AD315336D46FC8A70A06DAAB5F4C9AB /* Pods-RJSBridge_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RJSBridge_Example-Info.plist"; sourceTree = "<group>"; };
 		263858DF2A523DD82C57475DE73D08EC /* Pods-RJSBridge_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RJSBridge_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		32F361ADAF98633082FFCFE5A95594F2 /* RJSBridge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RJSBridge.modulemap; sourceTree = "<group>"; };
-		3312DCAD9D3FAF5BBAB054AF59B6C56B /* RJSBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RJSBridge.framework; path = RJSBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3312DCAD9D3FAF5BBAB054AF59B6C56B /* RJSBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RJSBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F57623852C7481E6AC9BC6266A4DE79 /* RJSBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RJSBridge-prefix.pch"; sourceTree = "<group>"; };
 		4046C026ECA27897DBC81A310C4E64F6 /* Pods-RJSBridge_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RJSBridge_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5480913CD57E59313C4FAA84B663A160 /* RJSBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RJSBridge.release.xcconfig; sourceTree = "<group>"; };
 		58431618891E8E82700DB9E5782C965D /* Pods-RJSBridge_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RJSBridge_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		586895059AA92276A4DFA932C17EAB21 /* RJSBridge.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RJSBridge.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		586895059AA92276A4DFA932C17EAB21 /* RJSBridge.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RJSBridge.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5912C57806DEF7F657076C3941F8ADD6 /* Pods-RJSBridge_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RJSBridge_Tests.modulemap"; sourceTree = "<group>"; };
 		59D9E5E22DA25CFE559007588EF617E2 /* Pods-RJSBridge_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RJSBridge_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		68EC62C39CE3E67200AF997C9193E9C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		68EC62C39CE3E67200AF997C9193E9C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		78E94B084747CB553310CCA10885BD37 /* RJSBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RJSBridge.m; path = RJSBridge/Classes/RJSBridge.m; sourceTree = "<group>"; };
 		819622C42E131CFAD8ED74000BFE1614 /* WKWebView+RJSBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+RJSBridge.m"; path = "RJSBridge/Classes/WKWebView+RJSBridge.m"; sourceTree = "<group>"; };
 		90B0390E938A58921365B25CE6E18FD1 /* Pods-RJSBridge_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RJSBridge_Tests-umbrella.h"; sourceTree = "<group>"; };
-		938F54DB7E75AD9E6CE972AE8101653D /* JSBridge.js */ = {isa = PBXFileReference; includeInIndex = 1; name = JSBridge.js; path = RJSBridge/Classes/JSBridge.js; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		938F54DB7E75AD9E6CE972AE8101653D /* JSBridge.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = JSBridge.js; path = RJSBridge/Classes/JSBridge.js; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AC25B2248AC516EB32C6236EA75FAD83 /* Pods-RJSBridge_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RJSBridge_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AF232B0BD1A70423B8280660091B49C3 /* NSObject+RJsonString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RJsonString.h"; path = "RJSBridge/Classes/NSObject+RJsonString.h"; sourceTree = "<group>"; };
 		B219C9F8A9001D0DC282403E11A3B9B3 /* NSObject+RJsonString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RJsonString.m"; path = "RJSBridge/Classes/NSObject+RJsonString.m"; sourceTree = "<group>"; };
@@ -74,8 +74,8 @@
 		D1B62EE3F50A05653CD6B9DFD369CE7A /* Pods-RJSBridge_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RJSBridge_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D1EBBCA6E2B648FA39A0A4E98B1EA1A6 /* Pods-RJSBridge_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RJSBridge_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D6A67FE52A544E069CB908B7C23F6A30 /* RJSBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RJSBridge-dummy.m"; sourceTree = "<group>"; };
-		D71F34081D620FD2EBE8A87F848B4D98 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D91799E8E371FD8C1AC708BE520162AC /* Pods_RJSBridge_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RJSBridge_Example.framework; path = "Pods-RJSBridge_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71F34081D620FD2EBE8A87F848B4D98 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D91799E8E371FD8C1AC708BE520162AC /* Pods_RJSBridge_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJSBridge_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA14B3A4AF3EE8BA5F59CB9C012E160C /* RJSBridge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RJSBridge-Info.plist"; sourceTree = "<group>"; };
 		EC0FBAFEDDFBB9A194FF635FF63577CC /* WKWebView+RJSBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+RJSBridge.h"; path = "RJSBridge/Classes/WKWebView+RJSBridge.h"; sourceTree = "<group>"; };
 		EF23AD0D386F999733946EBF8D13E006 /* Pods-RJSBridge_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RJSBridge_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -131,13 +131,13 @@
 		28B959BE1CF43BD1351ACD52488005F7 /* RJSBridge */ = {
 			isa = PBXGroup;
 			children = (
+				EC0FBAFEDDFBB9A194FF635FF63577CC /* WKWebView+RJSBridge.h */,
+				819622C42E131CFAD8ED74000BFE1614 /* WKWebView+RJSBridge.m */,
+				F404637EDC3FFB1BAE0A89940E699EA7 /* RJSBridge.h */,
+				78E94B084747CB553310CCA10885BD37 /* RJSBridge.m */,
 				938F54DB7E75AD9E6CE972AE8101653D /* JSBridge.js */,
 				AF232B0BD1A70423B8280660091B49C3 /* NSObject+RJsonString.h */,
 				B219C9F8A9001D0DC282403E11A3B9B3 /* NSObject+RJsonString.m */,
-				F404637EDC3FFB1BAE0A89940E699EA7 /* RJSBridge.h */,
-				78E94B084747CB553310CCA10885BD37 /* RJSBridge.m */,
-				EC0FBAFEDDFBB9A194FF635FF63577CC /* WKWebView+RJSBridge.h */,
-				819622C42E131CFAD8ED74000BFE1614 /* WKWebView+RJSBridge.m */,
 				39DA7DA77E829844BE64C5C632A3DCC4 /* Pod */,
 				A43E12A754045C9A6BAEC4EBE0A3E81E /* Support Files */,
 			);
@@ -709,8 +709,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
