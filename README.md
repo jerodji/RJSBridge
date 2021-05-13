@@ -72,13 +72,16 @@ iOS 侧基于 Runtime 消息转发。
 
 ### 使用方式1、交互类 method 方式
 
-只传入一个交互类即可，js 调用时直接传入方法名即可。
+只传入一个交互类即可，js 调用时直接传入方法名即可。`@“JSBridgeListener”` 请与 安卓端 保持一致。
 
 ```objc
 /**
  init
  */
-self.webView = [[WKWebView alloc] initWithFrame:rect configuration:[WKWebViewConfiguration new] listenerName:@"JSBridgeListener" interface:[NativeMethods new]];
+self.webView = [[WKWebView alloc] initWithFrame:rect 
+                configuration:[WKWebViewConfiguration new] 
+                listenerName:@"JSBridgeListener" 
+                interface:[NativeMethods new]];
 
 /**
  js call native
@@ -103,7 +106,7 @@ JSBridge.call(method, parmas, callback);
 
 ### 使用方式2、service
 
-可以定义多个不同的交互类，js 调用时请使用 `testService/testWithParams` 的方式。
+可以定义多个不同的交互类，js 调用时请使用 api 风格 `testService/testWithParams` 的方式。`@“JSBridgeListener”` 请与 安卓端 保持一致。如果安卓也支持这种 api 风格的话，那么 services 中的 key 也请尽量保持一致。
 
 ```objc
 /**
