@@ -22,7 +22,7 @@ TODO: An bridge to JavaScript, easy to use, simple, without invading.
 Only one bridge to js, then use OC objc_msgSend to specific method.
                        DESC
 
-  s.homepage         = 'https://github.com/jerodji/RJSBridge.git'
+  s.homepage         = 'https://github.com/jerodji/RJSBridge'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jerod' => 'jjd510@163.com' }
