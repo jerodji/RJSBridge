@@ -1,0 +1,6 @@
+framework module RJSBridge {
+  umbrella header "RJSBridge-umbrella.h"
+
+  export *
+  module * { export * }
+}

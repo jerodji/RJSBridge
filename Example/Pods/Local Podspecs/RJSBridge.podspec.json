@@ -1,0 +1,22 @@
+{
+  "name": "RJSBridge",
+  "version": "0.1.0",
+  "summary": "A short description of RJSBridge.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/20533206/RJSBridge",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "20533206": "jijiudong@peilian.com"
+  },
+  "source": {
+    "git": "https://github.com/20533206/RJSBridge.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RJSBridge/Classes/**/*"
+}

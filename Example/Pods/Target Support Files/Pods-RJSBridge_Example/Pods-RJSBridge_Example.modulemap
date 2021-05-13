@@ -1,0 +1,6 @@
+framework module Pods_RJSBridge_Example {
+  umbrella header "Pods-RJSBridge_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
