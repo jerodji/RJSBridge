@@ -167,7 +167,8 @@ window.JSBridge = {\
     } else if ([obj respondsToSelector:sel2]) {
         selector = sel2;
     } else {
-        NSString *msg = [NSString stringWithFormat:@"*** %@ %@ 方法没有实现", NSStringFromClass([obj class]), method];
+        NSString *msg = @"";
+        msg = [NSString stringWithFormat:@"*** %@ %@ 方法没有实现", NSStringFromClass([obj class]), method];
         NSAssert(NO, msg);
         return;
     }
