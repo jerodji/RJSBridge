@@ -87,4 +87,14 @@
     return color;
 }
 
+
+
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    NSURLRequest * req1 = [[NSURLRequest alloc] initWithURL:[NSURL URLWithString:@"https://www.taobao.com/"]];
+    NSURLSessionDataTask * task1 = [[NSURLSession sharedSession] dataTaskWithRequest:req1 completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+        NSLog(@"task 1 - %@",[NSThread currentThread]);
+    }];
+    [task1 resume];
+}
+
 @end
