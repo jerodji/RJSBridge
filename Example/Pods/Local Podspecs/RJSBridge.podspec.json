@@ -1,18 +1,18 @@
 {
   "name": "RJSBridge",
   "version": "0.1.0",
-  "summary": "A short description of RJSBridge.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/20533206/RJSBridge",
+  "summary": "an bridge to JavaScript, easy to use, simple, without invading.",
+  "description": "TODO: An bridge to JavaScript, easy to use, simple, without invading. \nOnly one bridge to js, then use OC objc_msgSend to specific method.",
+  "homepage": "https://github.com/jerodji/RJSBridge",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "20533206": "jijiudong@peilian.com"
+    "Jerod": "jjd510@163.com"
   },
   "source": {
-    "git": "https://github.com/20533206/RJSBridge.git",
+    "git": "https://github.com/jerodji/RJSBridge.git",
     "tag": "0.1.0"
   },
   "platforms": {
